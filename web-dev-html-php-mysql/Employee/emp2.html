@@ -1,0 +1,29 @@
+<html>
+	<h2><u>Employee Details Form</u></h2>
+	<form action="emp2(2).php" method="POST">
+		Full Name:<input type="text" name="ename" required><br><br>
+        Employee ID: <input type="text" name="e_id"  required><br><br>
+        Address:<textarea name="address"></textarea><br><br>
+		Email:<input type="email" name="email"><br><br>
+        Phone Number:<input type="tel" name="phno" required><br><br>
+		Gender:<input type="radio" name="G" value="male" required>Male</input>
+			   <input type="radio" name="G" value="female">Female</input>
+			   <input type="radio" name="G" value="other">Other</input><br><br>
+        Super's Employee ID: <input type="text" name="super_id"><br><br>
+        Salary: <input type="number" name="salary" required><br><br>
+		Languages:<input type="checkbox" name="lang[]" value="english">English</input>
+				  <input type="checkbox" name="lang[]" value="bengali">Bengali</input>	
+				  <input type="checkbox" name="lang[]" value="hindi">Hindi</input><br><br>
+		Date of Joining:<input type="date" name="join_date" required><br><br>
+		Department:<select name="dno" required>
+				 	<option>----Select from below----</option>
+					<option value=1>Research</option>
+					<option value=2>Finance</option>	
+					<option value=3>Marketing</option>
+					<option value=4>Technical</option>
+					<option value=5>Human Resource</option>
+					</select><br><br>
+		Average Working Hours: <input type="number" name="hrs"><br><br>
+		<input type="submit" value="SUBMIT">
+		<input type="reset" value="RESET">	</form>
+</html>

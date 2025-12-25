@@ -1,0 +1,44 @@
+EMPLOYEE DATABASE
+
+1. Write a PHP script to create table “Employee“ with field e_id, ename, city, email,
+phno,category,super_id,salary(not <10000),languages,join_date(not null), dno,  where 
+e_id is a primary key and create another database table “Dept“ with field dno, dname,
+dlocation,where dno is a primary key and dno is Foreign Key references Dept table. 
+Also fill data in Dept table.
+
+2. Design a HTML form to take inputs from user and store the records into a 
+table“Employee”. Fields Form input control
+Employee ID------textbox
+Ename------textbox
+City-----textarea
+Email-------email
+Phone No.------number
+Salary-----textbox
+Gender-----radio buttons
+Language-----checkbox (Multiple languages have to be concatenate into a string 
+separated by commas and then store into database like “Bengali, English, Hindi”)
+Join Date------date
+Department-------radio
+Super's Employee ID---------textbox
+
+3. Write a php script to display:
+i.  all the details of the employees along with their department details
+ii. all distinct salaries. 
+iii.highest,lowest and avg salary of each Department
+iv. all the employee with their immediate super.
+
+4. Design a HTML form to take input for HRA percentage, DA percentage, and
+ Professional tax. Also take field to order the employees while displaying.
+(The field have to be choices through drop down menu containing all fields of the
+table). Now write a PHP script to generate the DA, HRA and Professional tax of every
+employee and display them with respect to every employee order by user’s choice field.
+ 
+5. Write a PHP script to retrieve and display:
+i. the departments having employees along with the count of employees in that department
+ii. the names of employees who earn a salary that is greater than the highest salary in department 3
+iii. employees who work in either department 2,4,5
+
+6. Make a HTML page to  
+i. display the employees who joined in the date range specified by user
+ii. display the employee name having atleast the user specified no. of characters 
+iii. display the departments having user specified no. of employees. 
